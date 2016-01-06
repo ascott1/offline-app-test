@@ -37,12 +37,13 @@
 
     // This is the unique name for the cache controlled by this version of the worker.
     get CACHE_NAME() {
-      return this.CACHE_PREFIX + '992f1a1a63678cee529ce41af918c1bdd10b2f80';
+      return this.CACHE_PREFIX + 'bcaed7897968018cbe99b5da8ce4bc4287477141';
     },
 
     // This is a list of resources that will be cached.
     RESOURCES: [
       './', // cache always the current root to make the default page available
+      './favicon.ico', // e08a45a41f214a931badef8ce7de67ced913e203
       './images/apple-touch-icon-114x114.png', // d18039f8fea99e40a95174ef9e9b1535bb31b19b
       './images/apple-touch-icon-120x120.png', // 77fc407482f21d8a504b67a402ec24460e5cc178
       './images/apple-touch-icon-144x144.png', // 088b71de4d4086c5f7e536beb1732b37d996a252
@@ -62,6 +63,7 @@
       './images/mstile-310x310.png', // 6cd3f41d4a135d5ec5695ade20845f40cefb34a4
       './images/mstile-70x70.png', // 6f75379a90f9615b823d57537ffa8eb1a0887702
       './index.html', // b992f4b38fb8eb30221989ad74f58364e0a4c55b
+      './robots.txt', // daa28737426043ff576e7f74dc6dd2b469cf5cb9
       './scripts/main.js', // ebb75faf6f7e87caecc0e285253be2036df2ef1c
       './scripts/offline-manager.js', // e2e09e000c5b64035940ae44e9c0936eb25ecd51
       './styles/stylesheet.css', // 7997e49a29b051cadc22884144acdba1efdff492
